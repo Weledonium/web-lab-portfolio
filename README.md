@@ -1,15 +1,15 @@
 # Web LAB
 
-## Hakkinda
+## Hakkında
 
 Bu proje, Web Tasarımı ve Programlama dersi LAB kapsaminda Vite + React + TypeScript kullanılarak oluşturulmuştur.
 
-## Gelistirici
+## Geliştirici
 
 **Ad Soyad:** Atahan Bora Bozkurt
 **Ogrenci No:** 230541151
 
-## Kullanilan Teknolojiler
+## Kullanılan Teknolojiler
 
 - React 18
 - TypeScript
@@ -21,6 +21,6 @@ Bu proje, Web Tasarımı ve Programlama dersi LAB kapsaminda Vite + React + Type
 npm install
 ```
 
-## Ekran Goruntusu
+## Ekran Görüntüsü
 
 ![Uygulama Ekran Görüntüsü](./screenshot.jpg)
