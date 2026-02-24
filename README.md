@@ -7,7 +7,8 @@ Bu proje, Web Tasarımı ve Programlama dersi LAB kapsaminda Vite + React + Type
 ## Geliştirici
 
 **Ad Soyad:** Atahan Bora Bozkurt
-**Ogrenci No:** 230541151
+
+**Ögrenci No:** 230541151
 
 ## Kullanılan Teknolojiler
 
