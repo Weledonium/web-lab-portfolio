@@ -18,27 +18,51 @@ function App() {
       <main id="main-content">
         <section id="hakkimda">
           <h2>Hakkımda</h2>
-          <figure>
-            <img src="https://via.placeholder.com/150" alt="Vesikalik fotografim" />
-            <figcaption>Atahan Bora Bozkurt</figcaption>
-          </figure>
-          <p>Merhaba! Yazılım mühendisliği 3. sınıf öğrencisiyim. Boş zamanlarımda algoritmalar üzerine çalışmayı, vücut geliştirmeyi ve detaylı RPG oyunları oynamayı seviyorum.</p>
+          {/* Yan yana dizebilmek için eklediğimiz kapsayıcı div */}
+          <div className="about-content">
+            <figure>
+              <img src="https://via.placeholder.com/200" alt="Vesikalik fotografim" />
+            </figure>
+            <div>
+              <p>Merhaba! Yazılım mühendisliği 3. sınıf öğrencisiyim. Boş zamanlarımda veri yapıları ve algoritmalar üzerine çalışmayı, antrenmanlarımı ve beslenmemi optimize etmeyi, ayrıca detaylı RPG oyunları oynamayı seviyorum.</p>
+                <ul className="skill-tags" role="list" aria-label="Beceri etiketleri">
+                  <li>React & TypeScript</li>
+                  <li>Python</li>
+                  <li>Veri Yapıları ve Algoritmalar</li>
+                  <li>Ağ Programlama</li>
+                  <li>VS Code</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
-        <section id="projeler">
+<section id="projeler">
           <h2>Projelerim</h2>
           
-          <article>
-            <h3>Antrenman ve Beslenme Takip Uygulaması</h3>
-            <p>Günlük makro besinleri ve antrenman rutinlerini takip etmeyi sağlayan React tabanlı bir web projesi.</p>
-            <img src="https://via.placeholder.com/300x150" alt="Antrenman uygulamasının ana kontrol paneli ekran görüntüsü" />
-          </article>
-          
-          <article>
-            <h3>RPG Karakter Yaratım Ekranı</h3>
-            <p>Sıra tabanlı oyunlardan ilham alan, istatistik ve yetenek ağacı barındıran dinamik bir karakter oluşturma arayüzü.</p>
-            <img src="https://via.placeholder.com/300x150" alt="Karakter yaratım arayüzündeki yetenek ağacının görüntüsü" />
-          </article>
+          <div className="project-grid">
+            
+            <article className="project-card">
+              <img src="https://via.placeholder.com/400x200" alt="GencKal uygulamasının ekran görüntüsü" />
+              <h3>GencKal</h3>
+              <p>Besin değerleri hesaplama ve takip odaklı, kullanıcı dostu arayüze sahip modern bir web uygulaması.</p>
+              <ul className="skill-tags">
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>CSS Grid</li>
+              </ul>
+            </article>
+            
+            <article className="project-card">
+              <img src="https://via.placeholder.com/400x200" alt="RPG karakter yaratım ekranı" />
+              <h3>RPG Karakter Ekranı</h3>
+              <p>Sıra tabanlı oyunlardan ilham alan, istatistik ve yetenek ağacı barındıran dinamik bir karakter oluşturma arayüzü.</p>
+              <ul className="skill-tags">
+                <li>HTML5</li>
+                <li>Flexbox</li>
+              </ul>
+            </article>
+
+          </div>
         </section>
 
         <section id="iletisim">
