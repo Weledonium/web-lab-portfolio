@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* 1. Butona tıklandığında Dark Mode'u tetikleyecek sihirli kod */
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  /* Font ailemizi koruyoruz */
+  --font-family-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-family-mono: 'Fira Code', 'Consolas', monospace;
+}
+
+/* 2. Sitenin genel gövde renklerini Tailwind sınıflarına emanet ediyoruz */
+body {
+  @apply bg-slate-50 text-slate-900 dark:bg-slate-900 dark:text-slate-100 transition-colors duration-300;
+}
