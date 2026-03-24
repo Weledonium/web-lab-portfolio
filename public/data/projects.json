@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "MakroLens: Diyet ve Fitness Hesaplayıcı",
+    "description": "Kullanıcıların BMI ve FFMI değerlerini hesaplayarak kişiselleştirilmiş diyet planları sunan, modern arayüzlü web uygulaması.",
+    "tech": ["React", "TypeScript", "Tailwind"],
+    "year": 2026,
+    "category": "frontend",
+    "featured": true,
+    "image": "https://via.placeholder.com/600x300"
+  },
+  {
+    "id": 2,
+    "title": "RPG Karakter Yaratım Ekranı",
+    "description": "Sıra tabanlı oyunlardan ilham alan, istatistik ve pasif yetenek ağacı barındıran dinamik bir karakter oluşturma arayüzü.",
+    "tech": ["HTML5", "CSS Grid", "JavaScript"],
+    "year": 2025,
+    "category": "frontend",
+    "featured": true,
+    "image": "https://via.placeholder.com/600x300"
+  },
+  {
+    "id": 3,
+    "title": "Veri Madenciliği: Aykırı Değer Analizi",
+    "description": "Büyük bir veri setindeki aykırı (outlier) değerleri tespit edip temizleyen veri işleme ve analiz projesi.",
+    "tech": ["Python", "Jupyter", "Pandas"],
+    "year": 2026,
+    "category": "backend",
+    "featured": false,
+    "image": "https://via.placeholder.com/600x300"
+  },
+  {
+    "id": 4,
+    "title": "Akademik Portföy (Erasmus+)",
+    "description": "Staj başvuruları için geliştirilmiş, tam responsive ve erişilebilirlik standartlarına uygun kişisel web portföyü.",
+    "tech": ["React", "Vite", "CSS"],
+    "year": 2026,
+    "category": "frontend",
+    "featured": true,
+    "image": "https://via.placeholder.com/600x300"
+  },
+  {
+    "id": 5,
+    "title": "Antrenman Kayıt API",
+    "description": "Kullanıcıların günlük antrenman setlerini ve ağırlıklarını kaydedip takip edebileceği REST tabanlı bir servis.",
+    "tech": ["Node.js", "Express", "MongoDB"],
+    "year": 2025,
+    "category": "fullstack",
+    "featured": false,
+    "image": "https://via.placeholder.com/600x300"
+  }
+]
